@@ -45,6 +45,10 @@ body {
     align-items: center;
 }
 
+.ham-burger{
+    display: none;
+}
+
 /* banner */
 
 .explore-container h1 {
@@ -332,4 +336,81 @@ select {
     font-size: 1rem;
     font-weight: 400;
     margin: 50px 0 110px 0;
+}
+
+@media screen and (max-width: 576px){
+    .logo h2{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .nav-options{
+        display: none;
+    }
+
+    .ham-burger{
+        display: block;
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+    }
+
+    .explore-container h1{
+        font-size: 2rem;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .explore-container p{
+        width: 300px;
+    }
+
+    .travel-inputs{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    input, select, .btn-primary{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .popular-section{
+       grid-template-columns: repeat(1, 1fr);
+       margin: 20px 30px;
+    }
+
+    .text-content{
+        width: 360px;
+    }
+
+    .btn-primary{
+        width: 200px;
+        margin: 0;
+    }
+
+    .text-image img{
+        width: 100%;
+    }
+
+    .your-title{
+        width: 350px;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .row-1, .row-2, .row-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .country{
+        font-size: 1rem;
+    }
+
+    .hotel-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .final-description {
+        width: 300px;
+    }
 }
