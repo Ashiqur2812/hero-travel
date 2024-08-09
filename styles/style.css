@@ -284,3 +284,52 @@ select {
    border: 1px solid rgba(41, 206, 246, 0.2);
    border-radius: 16px;
 }
+
+.final-container{
+    max-width: 100%;
+    height: 502px;
+    background-color: #F3F3F3;
+}
+
+.final-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 7rem 0 1rem 0;
+}
+
+.final-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.final-description{
+    max-width: 770px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.final-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem 0 3rem 0;
+}
+
+.final-titles{
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 50px 0 110px 0;
+}
